@@ -27,6 +27,11 @@ You can use `.env` file to change versions and define mysql variables.
 docker run --rm -v $(pwd):/app -u $(id -u):$(id -g) composer/composer create-project silex/silex .
 ```
 
+##### Silex Fabien's Skeleton
+```bash
+docker run --rm -v $(pwd):/app -u $(id -u):$(id -g) composer/composer create-project fabpot/silex-skeleton . "~2.0"
+```
+
 #### Symfony
 
 ```bash
